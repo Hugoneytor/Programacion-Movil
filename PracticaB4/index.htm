@@ -16,50 +16,67 @@
         <!--PRIMER COMPONENTE NAVBAR-->
 
         <div class="row">
-            <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top col">
+                <div class="container">
+                    <a class="navbar-brand ml-5" href="#">Bootstrap</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <div class="navbar-brand" style="margin-left: 100px;">
-                    <a>Bootstrap</a>
-                </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
-                                <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="navbarDropdown"
-                                role="button"
-                                data-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Disabled</a>
-                        </li>
-                        <li class="nav-item mx-5 active">
-                            <a class="nav-link" href="#">+5555 5555</a>
-                        </li>
-                    </ul>
+                        <ul class="navbar-nav ml-auto ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home
+                                    <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                            <li class="nav-item ml-5">
+                                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">+5555 5555</a>
+                            </li>
+                        </ul>
 
+                    </div>
                 </div>
             </nav>
+
         </div>
 
         <!--SIGUIENTE COMPONENTE SLIDER-->
-        <div class="row">
+        <div class="row no-gutters">
             <div
                 id="carouselExampleIndicators"
-                class="carousel slide carousel-fade"
+                class="carousel slide carousel-fade col-xs-12"
                 data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators"></li>
@@ -82,7 +99,7 @@
                         <img
                             src="imagenes/slide2.jpg"
                             class="d-block w-100"
-                            style="margin-right: 500px; height: 500px;"
+                            style="height:500px"
                             alt="Second slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Título 2</h5>
@@ -138,9 +155,9 @@
 
             <!--SIGUIENTE ELEMENTO CARDS-->
 
-            <div class="row justify-content-between no-gutters mb-5">
+            <div class="row justify-content-center no-gutters mb-5">
 
-                <div class="card col-xs-12" style="width: 19rem; margin-left: 50px;">
+                <div class="card col-xs mx-md-4 my-4" style="width: 19rem;">
                     <img src="./imagenes/slide1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -150,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="card col-xs-12" style="width: 19rem; margin-right: 5px;">
+                <div class="card col-xs mx-md-4 my-4" style="width: 19rem; ">
                     <img src="./imagenes/slide2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -160,7 +177,7 @@
                     </div>
                 </div>
 
-                <div class="card col-xs-12" style="width: 19rem; margin-right: 10px;">
+                <div class="card col-xs mx-md-4 my-4 " style="width: 19rem; ">
                     <img src="./imagenes/slide3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -211,7 +228,7 @@
             <!--SIGUIENTE COMPONENTE CARDS-->
             <div class="row justify-content-center mb-3">
 
-                <div class="card mr-4 " style="width: 30rem">
+                <div class="card mb-2 mr-md-4" style="width: 30rem">
                     <div class="card-header bg-info " id="headingOne">
                         <h5 class="mb-0 ">
                             <button
@@ -249,9 +266,7 @@
                     </ul>
                 </div>
 
-                <div
-                    class="card"
-                    style="width: 30rem; margin-bottom: auto;">
+                <div class="card" style="width: 30rem; margin-bottom: auto;">
                     <img
                         src="./imagenes/slide2.jpg"
                         class="card-img-top"
@@ -274,15 +289,20 @@
         <!--ULTIMO COMPONENTE FOOTER-->
         <footer>
             <div class="row no-gutters col-xs-12">
+
                 <div
                     class="py-3 col-12 text-center bg-dark mt-4 "
-                    style="color:white; width:100%">Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt eum ex dolorem
-                    iusto eveniet obcaecati necessitatibus molestias exercitationem perferendis
-                    distinctio corrupti, deserunt illo odio officiis nobis iure possimus corporis!
+                    style="color:white; width:100%">
+                    <div class="container">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt eum ex
+                            dolorem iusto eveniet obcaecati necessitatibus molestias exercitationem
+                            perferendis distinctio corrupti, deserunt illo odio officiis nobis iure possimus
+                            corporis!
+                        </p>
+                    </div>
                 </div>
             </div>
-
         </footer>
 
     </body>
