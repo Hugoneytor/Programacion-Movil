@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--ENLACE A LIBRERIA DE BOOTSTRAP-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+            crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="./imagenes/Anuncios/iconoExamen.JPG"/>
+        <title>Examen Progra movil</title>
+
+    </head>
+    <body >
+        <div class="container">
+            <!--COMIENZA EL HEADER Y EL NAVBAR-->
+            <header >
+                <!--HEADER PRINCIPAL-->
+
+                <div class="row pt-2 align-items-center d-flex">
+
+                    <div>
+
+                        <img src="./imagenes/header/header1.jpg" width="32px" height="44px" class="">
+                        <strong style="font-size: 10px;">
+                            La portada de hoy
+                        </strong>
+
+                        <img src="./imagenes/header/header2.png" width="46px" height="41px" class="">
+                        <strong style="font-size: 10px;">
+                            Radio Marca
+                        </strong>
+
+                        <img src="./imagenes/header/header3.png" width="40px" height="38.78px">
+                        <strong style="font-size: 10px;">
+                            CuídatePlus
+                        </strong>
+
+                    </div>
+
+                    <div style="margin:auto; margin-left: 150px;">
+                        <div >
+                            <img src="./imagenes/header/Marca LOGO.png" width="137.2px" height="38px">
+                        </div>
+
+                    </div>
+
+                    <div class="justify-content-end ">
+                        <button
+                            type="button"
+                            class="btn btn-outline-secondary dropdown-toggle btn-sm mr-2"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+
+                            <i class="iconsvg icon-es">
+                                <img src="./imagenes/navbar/banderaEspana.png" width="20px" height="20px"></i>
+
+                            ES
+
+                        </button>
+                        <button type="button" class="btn btn-danger mr-2">
+                            <strong>
+                                Suscríbete
+                            </strong>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary text-danger ">
+                            <strong>
+                                Iniciar sesión
+                            </strong>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!--NAVBAR-->
+            <nav
+                id="mainNav"
+                class="navbar navbar-expand-md navbar-dark bg-danger sticky-top">
+
+                <div class="container ">
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav mr-auto">
+
+                            <li class="nav-item dropdown">
+
+                                <a
+                                    class="nav-link dropdown-toggle text-white"
+                                    href="#"
+                                    id="menuFutbol"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    style="font-weight: bold;">
+
+                                    Fútbol
+
+                                </a>
+
+                                <div id="dropdownMenuFutbol" class="dropdown-menu" aria-labelledby="menuFutbol"></div>
+
+                            </li>
+
+                            <li class="nav-item dropdown">
+
+                                <a
+                                    class="nav-link dropdown-toggle text-white"
+                                    href="#"
+                                    id="menuFutbol"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    style="font-weight: bold;">
+
+                                    Baloncesto
+
+                                </a>
+
+                                <div id="dropdownMenuFutbol" class="dropdown-menu" aria-labelledby="menuFutbol"></div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+
+                                <a
+                                    class="nav-link dropdown-toggle text-white"
+                                    href="#"
+                                    id="menuFutbol"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    style="font-weight: bold;">
+
+                                    Motor
+
+                                </a>
+
+                                <div id="dropdownMenuFutbol" class="dropdown-menu" aria-labelledby="menuFutbol"></div>
+
+                            </li>
+                            <li class="nav-item dropdown">
+
+                                <a
+                                    class="nav-link dropdown-toggle text-white"
+                                    href="#"
+                                    id="menuFutbol"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    style="font-weight: bold;">
+
+                                    Polideportivo
+
+                                </a>
+
+                                <div id="dropdownMenuFutbol" class="dropdown-menu" aria-labelledby="menuFutbol"></div>
+
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link text-white" href="#" style="font-weight: bold;">
+
+                                    Más +
+
+                                </a>
+
+                            </li>
+
+                        </ul>
+
+                        <form class="navbar-nav ml-auto form-inline">
+
+                            <input
+                                class="form-control mr-sm-2"
+                                type="search"
+                                placeholder="Buscar en Marca.com"
+                                aria-label="Search">
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </nav>
+            <div class="row no-gutters col-xs bg-light">
+
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:120px"
+                    src="imagenes/equipos/alaves.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/athletic club bilbao.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/atletico-madrid-logo-1.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/Barcelona.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/real betis.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/celta de vigo.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/eibar.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/elche.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/getafe.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/granada.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/huesca.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/levante.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:14px"
+                    src="imagenes/equipos/osasuna.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/real madrid.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/real sociedad.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/sevilla.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/valencia.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/valladolid.png">
+                <img
+                    style="width:41px; height:34px; margin-top:10px; margin-left:10px"
+                    src="imagenes/equipos/villareal.png">
+                <img
+                    style="width:110px; height:34px; margin-top:10px; margin-left:50px"
+                    src="imagenes/navbar/marcaApuestas.png">
+            </div>
+
+            <div class="container">
+                <div class="row col-xs">
+                    <img
+                        style="width:900px; height:100px; margin-left:100px; margin-top:20px"
+                        src="imagenes/Anuncios/AnuncioCaliente.JPG">
+                </div>
+            </div>
+        </header>
+
+        <!--COMIENZA EL CONTENIDO PRINCIPAL-->
+        <main>
+
+            <div class="container">
+                <div class="row mt-3 align-items-center d-flex justify-content-between">
+                    <div class="align-items-center d-flex">
+                        <div class="mr-5" style="font-size: 20px;">
+                            <span>
+                                <strong>
+                                    Agenda
+                                </strong>
+                            </span>
+                        </div>
+                        <div
+                            class="bg-danger text-white px-2 pt-1 pb-3"
+                            style="font-size: 15px; height: 50px;">
+                            <span >
+                                <strong>
+                                    En directo
+                                </strong>
+                            </span>
+                        </div>
+                        <div
+                            class="text-dark px-2 pt-1 pb-3 mr-4"
+                            style="font-size: 15px; background-color:#E1E0E0; width: 150px; height: 50px;">
+                            <span >
+
+                                Todas las noticias
+                                <strong>
+                                    Ultima hora
+                                </strong>
+                            </span>
+                        </div>
+
+                        <div
+                            class="bg-danger text-white px-2 pt-1 pb-3"
+                            style="font-size: 15px; height: 50px;">
+                            <span >
+                                <strong>
+                                    Lo mejor del dia
+                                </strong>
+                            </span>
+                        </div>
+                        <div
+                            class="text-dark px-2 pt-1 pb-3"
+                            style="font-size: 15px; background-color:#E1E0E0; width: 150px; height: 50px;">
+                            <span >
+
+                                Agenda
+                                <br>
+                                <strong>
+                                    Jueves 23
+                                </strong>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <p
+                            font-weight:light;="font-weight:light;"
+                            font-size:14px;"="
+                            font-size:14px;""="font-size:14px;"
+                            "">
+                            Ver más directos
+                            <select name="deporte">
+                                <option></option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <img
+                    src="imagenes/noticias/Imagen1.jpg"
+                    style="height:410px; width:750px; margin-top: 90px; margin-left: 200px;">
+                <div
+                    class="card border-light"
+                    style="max-width: 540px; margin-top:90px; margin-left: 30px">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./imagenes/noticias/imagen2.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body p-0">
+                                <h5
+                                    class="card-title"
+                                    style="color:rgba(82, 152, 243, 0.945); margin-left:15px">LALIGA SANTANDER</h5>
+                                <p class="card-text" style="font-weight: bold; margin-left:15px">Amenaza de huelga</p>
+
+                            </div>
+                        </div>
+                        <div></div>
+                        <p style="margin-right:70px; margin-top: 10px; font-size:11px">A. MOGOLLO Y E. BORDA</p>
+                        <img
+                            style="margin-left:150px; width: 33px; height: 25px;"
+                            src="imagenes/noticias/Icono Comentarios.JPG">
+                        <p style="font-weight: bold; color: rgb(184, 34, 34);">306</p>
+
+                    </div>
+
+                    <hr style="background-color: rgb(145, 154, 163);">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./imagenes/noticias/imagen3.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body p-0">
+                                <h5
+                                    class="card-title"
+                                    style="color:rgba(82, 152, 243, 0.945); margin-left:15px">FICHAJES</h5>
+                                <p
+                                    class="card-text"
+                                    style="font-weight: bold; margin-left:15px; text-align: initial;">Mercado: el 'recambio' de Filipe Luis puede llegar de Alemania
+                                    <img
+                                        style="margin-left:8px; width: 33px; height: 25px;"
+                                        src="imagenes/noticias/Icono Comentarios.JPG">
+                                        <a style="font-weight: bold; color: rgb(184, 34, 34);">92</a>
+                                    </img>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="background-color: rgb(145, 154, 163);">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="./imagenes/noticias/imagen4.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-0">
+                                    <h5
+                                        class="card-title"
+                                        style="color:rgba(82, 152, 243, 0.945); margin-left:15px">REAL MADRID</h5>
+                                    <p class="card-text" style="font-weight: bold; margin-left:15px">Champions y Liga para el portero titular</p>
+
+                                </div>
+                            </div>
+                            <div></div>
+                            <p style="margin-right:70px; margin-top: 10px; font-size:11px">JOSÉ FÉLIX DÍAZ</p>
+                            <img
+                                style="margin-left:198px; width: 33px; height: 25px;"
+                                src="imagenes/noticias/Icono Comentarios.JPG">
+                                <p style="font-weight: bold; color: rgb(184, 34, 34);">206</p>
+                            </img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <p style="margin-left:200px; font-size:11px; margin-bottom: 10px;">RUBÉN JIMENEZ ENRIQUE MEDINA</p>
+                <img
+                    style="margin-left:515px; width: 33px; height: 25px;"
+                    src="imagenes/noticias/Icono Comentarios.JPG">
+                    <p style="font-weight: bold; color: rgb(184, 34, 34);">468</p>
+                </img>
+            </div>
+        </main>
+
+        <div class="row justify-content-center no-gutters mb-5">
+
+            <div class="card col-xs mx-md-4 my-4 border-light" style="width: 19rem;">
+                <img src="./imagenes/noticias/imagen5.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title" style="font-weight: bold; margin-top: 15px;">Felix Orode, el jugador nigeniario que explica el festejo de Dele Alli</h5>
+                    <p class="card-text"></p>
+                </div>
+                <hr style="margin-top: 40px; background-color: rgb(145, 154, 163);">
+            </div>
+
+            <div class="card col-xs mx-md-4 my-4 border-light" style="width: 19rem; ">
+                <img src="./imagenes/noticias/imagen6.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title" style="font-weight: bold; margin-top: 15px;">Cristiano habla sobre Cuadrado y la cesión del número 7</h5>
+                    <p style="font-size:11px; margin-bottom: 10px;">REDACCIÓN MARCA CLARO</p>
+                </div>
+                <hr style=" background-color: rgb(145, 154, 163);">
+            </div>
+
+            <div class="card col-xs mx-md-4 my-4 border-light" style="width: 19rem; ">
+                <img src="./imagenes/noticias/imagen7.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title" style="font-weight: bold; margin-top: px;">La joya celeste que hace soñar a Cruz Azul</h5>
+                    <p style="font-size:11px; margin-bottom: 10px;">JAVIER CARDOSO</p>
+                </div>
+                <hr style=" background-color: rgb(145, 154, 163);">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+    </div>
+    <div class="row mt-3">
+        <p style="font-weight:bold; margin-left: 240px;">Es noticia:</p>
+        <div style="margin-left: 20px;">
+            Mercado de fichajes
+        </div>
+        <div style="margin-left: 20px;">
+            Rodrigo
+        </div>
+        <div style="margin-left: 20px;">
+            Fernando Alonso
+        </div>
+        <div style="margin-left: 20px;">
+            Lewandoski
+        </div>
+        <div style="margin-left: 20px;">
+            Usain Bolt
+        </div>
+        <div style="margin-left: 20px;">
+            Donald Trump
+        </div>
+        <div style="margin-left: 20px;">
+            Calendario Liga
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="card border-light col" style="max-width: 500px;">
+                <div class="row no-gutters">
+                    <div class="col-md-5">
+                        <img src="./imagenes/noticias/imagen8.jpg" class="card-img" height="100px">
+
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body p-0 px-2">
+                            <h5 class="card-title" style="font-size: 15px; color:rgba(82, 152, 243, 0.945)">LA LIGA SANTANDER</h5>
+                            <p class="card-text" style="font-weight: bold; font-size: 14px;">¿Qué equipos y que jugadores estuvieron en la reunión de la AFE?</p>
+                        </div>
+                    </div>
+                </div>
+                <hr style=" background-color: rgb(145, 154, 163);">
+            </div>
+
+            <div class="card border-light col" style="max-width: 500px;">
+                <div class="row no-gutters">
+                    <div class="col-md-5">
+                        <img
+                            src="./imagenes/noticias/Noticia extra 1.jpg"
+                            class="card-img"
+                            height="100px">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body p-0 px-2">
+                            <h5 class="card-title" style="font-size: 15px; color:rgba(82, 152, 243, 0.945)">MÁS FÚTBOL</h5>
+                            <p class="card-text"  style="font-weight: bold; font-size: 14px;">Gerardo Martino descarta haber tenido diferencia con Leonel Messi</p>
+
+                        </div>
+                    </div>
+                </div>
+                <hr style="background-color: rgb(145, 154, 163);">
+            </div>
+
+            <div class="card border-light col" style="max-width: 500px;">
+                <div class="row no-gutters">
+                    <div class="col-md-5">
+                        <img src="./imagenes/noticias/imagen9.jpg" class="card-img" height="100px">
+
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body p-0 px-2">
+                            <h5 class="card-title" style="font-size: 15px; color:rgba(82, 152, 243, 0.945)">SEVILLA FC</h5>
+                            <p class="card-text"  style="font-weight: bold; font-size: 14px;">Draxler y Martial, nombres 'top' en la recta final del mercado</p>
+                        </div>
+                    </div>
+                </div>
+                <hr style="background-color: rgb(145, 154, 163);">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-between">
+
+            <div class="card col-xs mx-md-4 my-4 border-light" style="width: 19rem;">
+                <img src="./imagenes/noticias/imagen10.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title" style="font-weight: bold; margin-top: 15px;">Lunin, muy cerca de irse cedido al Leganés</h5>
+                </div>
+                <hr style="margin-top: 40px; background-color: rgb(145, 154, 163);">
+            </div>
+
+            <div class="card col-xs mx-md-4 my-4 border-light" style="width: 19rem; ">
+                <img src="./imagenes/noticias/imagen11.jpg" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title" style="font-weight: bold; margin-top: 15px;">Algo pasa con Rdorigo</h5>
+                </div>
+                <hr style=" background-color: rgb(145, 154, 163);">
+            </div>
+
+            <div class="card col-xs mx-md-4 my-4 border-light" style="width: 19rem; ">
+                <img
+                    src="./imagenes/noticias/Noticia extra 2.jpg"
+                    style="height:170px;"
+                    class="card-img-top"
+                    alt="...">
+                <div class="card-body p-0">
+                    <h5 class="card-title" style="font-weight: bold; margin-top: 15px;">Dani Alves desvela lo que le llegó a ofrecer el Real Madrid</h5>
+                </div>
+                <hr style=" background-color: rgb(145, 154, 163);">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--COMIENZA EL FOOTER-->
+<!-- Footer -->
+
+<footer class="text-white">
+
+    <!-- Grid row-->
+    <div
+        class="row py-4 d-flex align-items-center"
+        style="background-color: black;">
+        <div class="container">
+            <!-- Grid column -->
+            <div class="col text-center">
+                <h6 class="mb-0">
+                    Otras webs de Unidad Editorial</h6>
+                <hr style="background-color: white;">
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase font-weight-bold">
+                                Marca</h6>
+                            <hr
+                                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px;">
+                            <p>
+                                <a href="#!" class="text-white">
+                                    App Marca</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">
+                                    Apuestas Deportivas</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Clasificación de LaLiga</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Hemeroteca Marca</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Marca eSports</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Marca Madrid</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Marca en Orbyt</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Zona Marca</a>
+                            </p>
+
+                        </div>
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase font-weight-bold">
+                                Ocio y Moda</h6>
+                            <hr
+                                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px;">
+                            <p>
+                                <a href="#!" class="text-white">
+                                    Tiramillas</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">
+                                    Moda-Telva</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">BUHO Magazine</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Traductor</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Programación TV</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Marca Entradas</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Mi bebé y yo</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold">Unidad Editorial</h6>
+                            <hr
+                                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px;">
+                            <p>
+                                <a href="#!" class="text-white">El Mundo</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Expansión</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">CuidatePlus</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Diario Médico</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Correo Farmacéutico</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Suscripción Marca</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Suscripción El Mundo</a>
+                            </p>
+
+                        </div>
+
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold">Formación y empleo</h6>
+                            <hr
+                                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px;">
+                            <p>
+                                <a href="#!" class="text-white">Escuela Unidad Editorial</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Unidad Editorial</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-white">Expansión y Empleo</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+        </div>
+    </div>
+    <div class="row text-dark" style="background-color: #E1E0E0;">
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <span>
+                    <strong>
+                        © Agosto 2018 Unidad Editorial Información Deportiva, S.L.U. Todos los derechos
+                        reservados.</strong>
+                </span>
+            </div>
+            <div class="row justify-content-between mt-2">
+
+                <a href="#" class="text-dark">Términos y condiciones de uso</a>
+                <a href="#" class="text-dark">Política de privacidad</a>
+                <a href="#" class="text-dark">Política de cookies</a>
+                <a href="#" class="text-dark">Certificado por OJD</a>
+                <a href="#" class="text-dark">Contacto</a>
+                <a href="#" class="text-dark">Publicidad</a>
+                <a href="#" class="text-dark">Ayuda</a>
+                <a href="#" class="text-dark">Nuestro equipo</a>
+
+            </div>
+            <div class="row justify-content-center mt-1">
+                <a class="text-dark" href="#">Venta de contenidos</a>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <span>
+                    <p>
+                        <strong>Síguenos en</strong>
+                    </p>
+                </span>
+            </div>
+            <div class="row justify-content-center mt2 mb-5">
+                <a class="mr-2" href="https://www.facebook.com">
+                    <img src="./imagenes/IconosFooter/facebookIcon.png" width="36px" height="36px">
+                </a>
+                <a class="mr-2" href="https://www.twitter.com">
+                    <img src="./imagenes/IconosFooter/twitterIcon.png" width="36px" height="36px">
+                </a>
+                <a class="mr-2" href="https://www.gmail.google.com">
+                    <img src="./imagenes/IconosFooter/googleIcon.png" width="36px" height="36px">
+                </a>
+                <a href="https://www.marca.com/rss.html">
+                    <img src="./imagenes/IconosFooter/rssIcon.png" width="36px" height="36px">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer -->
+</body>
+<!--ENLACES DE JAVASCRIPT-->
+<script
+src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+crossorigin="anonymous"></script>
+</html>
